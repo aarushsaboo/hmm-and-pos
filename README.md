@@ -1,6 +1,3 @@
-
----
-
 ```markdown
 # 🧠 Part-of-Speech Tagging using Hidden Markov Model (HMM)
 
@@ -11,9 +8,9 @@ This mini-project demonstrates how a **Hidden Markov Model (HMM)** can be used f
 ## 📘 Project Overview
 
 The goal is to implement a simple **HMM-based POS Tagger** that:
-- Learns transition and emission probabilities from a tagged corpus
-- Uses the **Viterbi algorithm** to find the most likely POS sequence
-- Visualizes the resulting tag sequence
+- Learns transition and emission probabilities from a tagged corpus  
+- Uses the **Viterbi algorithm** to find the most likely POS sequence  
+- Visualizes the resulting tag sequence  
 
 This is a **foundational NLP experiment** often used to introduce sequence models before exploring RNNs or Transformers.
 
@@ -92,6 +89,7 @@ pip install nltk matplotlib
    git clone https://github.com/<your-username>/HMM_POS_Tagging.git
    cd HMM_POS_Tagging
    ```
+
 2. Run the script:
 
    ```bash
@@ -175,6 +173,4 @@ Feel free to fork and modify for educational purposes.
 Batch: A, Division 2
 
 ```
-
----
 ```
